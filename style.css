@@ -552,6 +552,50 @@ html::-webkit-scrollbar-thumb {
     bottom: 0.5rem;
 }
 
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 2.5rem 0;
+    background-color: rgb(168, 35, 35);
+    margin-top: auto;
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 0;
+    color: black;
+}
+
+footer .social #i-footer {
+    font-size: 25px;
+    color: black;
+    border: 2px solid black;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 10px;
+    transition: 0.3s ease;
+}
+
+footer .social #i-footer:hover {
+    transform: scale(1.2) translateY(-5px);
+    background: black;
+    color: rgb(168, 35, 35);
+}
+
+footer p {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 1rem;
+    color: black;
+}
+
+
+
 
 
 
@@ -730,6 +774,10 @@ html::-webkit-scrollbar-thumb {
     .container .sidebar .logo button {
         display: flex;
     }
+
+    .footer {
+        padding: 2rem 3%;
+    }
 }
 
 
@@ -868,6 +916,9 @@ html::-webkit-scrollbar-thumb {
         align-items: center;
         justify-content: center;
         margin-left: 1rem;
+    }
+    .footer{
+        margin-top: 5rem;
     }
 }
 
